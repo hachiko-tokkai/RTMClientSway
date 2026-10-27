@@ -22,7 +22,7 @@ if ($LASTEXITCODE -ne 0) { throw 'javac failed' }
 Copy-Item -Path (Join-Path $project 'src\main\resources\mcmod.info') -Destination $classes
 Copy-Item -LiteralPath (Join-Path $project 'LICENSE') -Destination $classes
 Copy-Item -LiteralPath (Join-Path $project 'THIRD_PARTY_NOTICES.md') -Destination $classes
-$output = Join-Path $dist 'RTMClientSway-1.1.0.jar'
+$output = Join-Path $dist 'RTMClientSway-1.1.1.jar'
 & jar cfm $output (Join-Path $project 'src\main\resources\META-INF\MANIFEST.MF') -C $classes .
 if ($LASTEXITCODE -ne 0) { throw 'jar failed' }
 Write-Output $output

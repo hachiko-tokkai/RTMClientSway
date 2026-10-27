@@ -1,6 +1,6 @@
 # 開発版の設定
 
-対象は `1.1.0` です。「Mods → RTM Client Sway → Config」、または `config/rtmclientsway.cfg` で調整します。設定は全車両共通です。
+対象は `1.1.1` です。「Mods → RTM Client Sway → Config」、または `config/rtmclientsway.cfg` で調整します。設定は全車両共通です。
 
 | 項目 | 効果 | 初期値 |
 |---|---|---|

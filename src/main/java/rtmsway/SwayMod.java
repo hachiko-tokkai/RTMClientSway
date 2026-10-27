@@ -7,7 +7,7 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.common.config.Configuration;
 
-@Mod(modid="rtmclientsway", name="RTM Client Sway", version="1.1.0", acceptedMinecraftVersions="[1.7.10]", acceptableRemoteVersions="*", guiFactory="rtmsway.SwayGuiFactory")
+@Mod(modid="rtmclientsway", name="RTM Client Sway", version="1.1.1", acceptedMinecraftVersions="[1.7.10]", acceptableRemoteVersions="*", guiFactory="rtmsway.SwayGuiFactory")
 public final class SwayMod {
     public static Configuration config;
     public static boolean isOn = true, isVertical = true;

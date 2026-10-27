@@ -20,3 +20,8 @@ if ($LASTEXITCODE -ne 0) { throw 'bytecode verification failed' }
 if ($LASTEXITCODE -ne 0) { throw 'motion verification compile failed' }
 & java -cp "$verify;$cp" rtmsway.VerifyVisualMotion
 if ($LASTEXITCODE -ne 0) { throw 'motion verification failed' }
+
+& javac -encoding UTF-8 -source 8 -target 8 -cp $cp -d $verify (Join-Path $PSScriptRoot 'tools\VerifyCurve.java')
+if ($LASTEXITCODE -ne 0) { throw 'curve verification compile failed' }
+& java -cp "$verify;$cp" rtmsway.VerifyCurve (Join-Path $PSScriptRoot 'tools\reference\RTMBodyMotion.js')
+if ($LASTEXITCODE -ne 0) { throw 'reference curve verification failed' }

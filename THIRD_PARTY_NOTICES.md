@@ -1,8 +1,8 @@
 # RTMBodyMotion
 
-帝立車両様・かんつき様制作の動揺JS（RTMBodyMotion）を使用しています。分岐の形状計算、トング・クロッシング判定、衝撃の方向・強さの処理をJavaへ移植しています。走行・曲線・制動の動揺設計も参考にしています。
+帝立車両様・かんつき様制作の動揺JS（RTMBodyMotion）を使用しています。分岐の形状計算、トング・クロッシング判定、衝撃の方向・強さの処理をJavaへ移植しています。曲線のカント不足入力・方向安定判定・複合曲線イベントもJavaへ移植しています。走行・制動の動揺設計も参考にしています。
 
-対象：SwayHook.javaの分岐処理、Motion.javaの分岐衝撃処理。
+対象：SwayHook.javaの分岐処理、Motion.javaの分岐衝撃処理、Curve.javaのカント不足入力・複合曲線イベント。tools/reference/RTMBodyMotion.jsは検証用の原文で、配布JARには含めません。
 
 参照元：https://github.com/C-TREC/RTMBodyMotion
 

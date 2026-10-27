@@ -1,1 +1,1 @@
-[{"modid":"rtmclientsway","name":"RTM Client Sway","description":"RTM車体描画に走行・曲線・分岐・停車時の揺れを追加するクライアントMOD","version":"1.1.0","mcversion":"1.7.10","authorList":["tomos"],"dependencies":[]}]
+[{"modid":"rtmclientsway","name":"RTM Client Sway","description":"RTM車体描画に走行・曲線・分岐・停車時の揺れを追加するクライアントMOD","version":"1.1.1","mcversion":"1.7.10","authorList":["tomos"],"dependencies":[]}]
