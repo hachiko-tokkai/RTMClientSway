@@ -18,7 +18,7 @@ RTM（RealTrainMod）の列車に、走行中の上下・左右の揺れ、カ�
 |---|---|
 | Minecraft | 1.7.10 |
 | Minecraft Forge | 10.13.4.1614 |
-| KaizPatchX | 1.10.1以上 |
+| KaizPatchX | 1.10.1 + |
 
 本MODはKaizPatchX 1.10.1以上の環境を前提としています。別バージョンのMinecraft、KaizPatchX 1.10.1未満、および公式RTM環境は未検証です。
 
@@ -98,14 +98,8 @@ Copyright (c) 2026 hachiko-tokkai
 
 本MODは現状のまま提供します。動作・互換性・安全性を保証せず、使用に伴う不具合や損害について、作者は適用法令で認められる範囲において責任を負いません。詳細はLICENSEを確認してください。
 
-Minecraft、Forge、KaizPatchXなどの第三者ソフトウェアの権利は、各権利者に帰属します。それらのJARやソースコードは同梱していません。
-
 分岐処理とカント・カーブ応答には「帝立車両様・かんつき様制作の動揺JS（RTMBodyMotion）」を使用しています。
 
 利用条件に基づく指定クレジット（原文）：
 
 > C-TREC & 月島重工 制作の動揺JSを使用
-
-## 参考資料
-
-- [KaizPatchX](https://github.com/Kai-Z-JP/KaizPatchX)
